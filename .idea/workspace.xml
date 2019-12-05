@@ -1,8 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dae7892-394d-4f65-a481-ae27d7a5d4f1" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="4dae7892-394d-4f65-a481-ae27d7a5d4f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dashboard/homepage_apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dashboard/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dashboard/templates/dashboard/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/easter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/parser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/parser/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/parser/isoparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/relativedelta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/rrule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/tz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/tz/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/tz/_factories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/tz/tz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/tz/win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/tzwin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/zoneinfo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dateutil/zoneinfo/rebuild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch-7.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/indices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/ingest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/remote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/ccr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/data_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/deprecation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/ilm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/license.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/ml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/monitoring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/rollup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/ssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/client/xpack/watcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/connection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/connection/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/connection/http_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/connection/http_urllib3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/connection/pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/helpers/actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/helpers/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/helpers/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch/transport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl-7.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/aggs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/connections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/faceted_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/response/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/response/aggs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/response/hit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/update_by_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/elasticsearch_dsl/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/python_dateutil-2.8.1.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six-1.13.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six-1.13.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six-1.13.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six-1.13.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six-1.13.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six-1.13.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3-1.25.7.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3-1.25.7.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3-1.25.7.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3-1.25.7.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3-1.25.7.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3-1.25.7.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/util/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashboard/static/bower_components/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/static/bower_components/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashboard/templates/dashboard/keywords.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/templates/dashboard/keywords.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hydra/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hydra/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,25 +170,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Q63awNs8JwQrbdKz8R6BkgiKf4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lightadminhtml-430/html_admin/dist/zzzzz.html" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -45,5 +214,24 @@
       <updated>1567077285512</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575352804192">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1575352804192" />
   </component>
 </project>

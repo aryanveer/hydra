@@ -39,7 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'elasticsearch_dsl',
 ]
+
+# ELASTICSEARCH_DSL={
+#     'default': {
+#         'hosts': 'localhost:9200'
+#     },
+# }
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

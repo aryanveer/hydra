@@ -7,9 +7,9 @@
 	{% endblock links %}
 
 {% block script %}
-<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!--<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
 
-<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<!--<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>-->
 
 {% endblock script %}
 
@@ -45,20 +45,20 @@
 								  <div class="modal-body">
 
 
-									<form action="" method="post">
+									<form id="form" action="" method="post">
 										{% csrf_token %}
 									  <div class="form-group">
-										<label for=""> Keyword</label><input name="new_keyword" class="form-control" placeholder="Enter Keyword" type="text">
+										<label for=""> Keyword</label><input id="key" name="new_keyword" class="form-control" placeholder="Enter Keyword" type="text">
 									  </div>
 									  <div class="row">
 										<div class="col-sm-6">
 										  <div class="form-group">
-											<label for=""> Source</label><input name="source" class="form-control" placeholder="Source" type="text">
+											<label for=""> Source</label><input id="source" name="source" class="form-control" placeholder="Source" type="text">
 										  </div>
 										</div>
 										<div class="col-sm-6">
 										  <div class="form-group">
-											<label for="">Priority</label><input name="priority" class="form-control" placeholder="Priority" type="number">
+											<label for="">Priority</label><input id="priority" name="priority" class="form-control" placeholder="Priority" type="number">
 										  </div>
 										</div>
 									  </div>
@@ -66,12 +66,12 @@
 <!--										<div class="row">-->
 <!--										<div class="col-sm-6">-->
 										  <div class="form-group">
-											<label for=""> Similar Words</label><input name="similar_words" class="form-control" placeholder="Similar Words" type="text">
+											<label for=""> Similar Words</label><input id="similar" name="similar_words" class="form-control" placeholder="Similar Words" type="text">
 										  </div>
 <!--										</div>-->
 <!--									  </div>-->
 											<div class="modal-footer">
-												<button class="btn btn-secondary" data-dismiss="modal" type="button"> Close</button><button class="btn btn-primary" type="submit"> Add</button>
+												<button onClick="window.location.reload();" class="btn btn-secondary" data-dismiss="modal" type="button"> Close</button><button id="operation" class="btn btn-primary" type="submit"> Add</button>
 											  </div>
 									</form>
 								  </div>
@@ -102,26 +102,55 @@
               </div>
   			</div>
 		  </div>
+
 {% endblock content %}
 
 {% block datatable_js %}
 <script>
 var json={{ test_data | safe }}
 $(document).ready(function() {
-    $('#example').DataTable( {
+    var table = $('#example').DataTable( {
         data: json.data,
         "columns": [
             { "data": "keyword" },
             { "data": "source" },
             { "data": "priority" },
             { "data": "similar_keywords" },
-            { "defaultContent": "<button > Edit </button>" }
+            { "defaultContent": "<a id='edit' class='mr-2 mb-2 btn btn-primary' data-target='.bd-example-modal-lg' data-toggle='modal'> Edit </a> <a id='delete' href='delete' class='btn btn-primary'> Delete </a>" }
         ]
     } );
 
-    $('#example tbody tr td').on( 'click', 'button', function () {
+
+<!--	JS for the delete button for every row of the datatable-->
+
+    $('#example tbody').on( 'click', '#delete', function () {
         var data = table.row( $(this).parents('tr') ).data();
-        alert( data["keyword"] +"'s salary is: "+ data["source"] );
+        var id = data['keyword'];
+        var del_a = "Delete the keyword "
+        alert( del_a + data['keyword'] );
+        var newUrl = this.href+'?key='+id
+		$(this).attr("href", newUrl);
+    } );
+
+
+<!--	JS for the edit button for every row of the datatable-->
+
+        $('#example tbody').on( 'click', '#edit', function () {
+        var data = table.row( $(this).parents('tr') ).data();
+
+        var keyword = data['keyword'];
+        var source = data['source'];
+        var priority = data['priority'];
+        var similar_keywords = data['similar_keywords'];
+
+        var newUrl = "update"+'?key='+keyword
+		$('#form').attr("action", newUrl);
+
+		$('#key').val(keyword);
+		$('#source').val(source);
+		$('#priority').val(priority);
+		$('#similar').val(similar_keywords);
+		$('#operation').html("Update");
     } );
 
 } );
