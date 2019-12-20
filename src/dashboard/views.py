@@ -4,7 +4,7 @@ from users.models import Keywords
 import json
 from django.shortcuts import render, redirect
 from elasticsearch import Elasticsearch
-from elasticsearch_dsl import Search
+from elasticsearch_dsl import Search, UpdateByQuery
 
 
 class Home(View):
@@ -71,9 +71,11 @@ def update_keyword(request):
 def blah(request):
 	_es = None
 	_es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
-	data = {"name": "Aryan", "age": 22, "experienceInYears": 1}
+
+	data = {"name": "Balle", "age": 22, "experienceInYears": 1}
 	data = json.dumps(data)
-	_es.index(index='hydra', doc_type='keywords', body=data)
+	# _es.index(index='hydra', doc_type='keywords', body=data)
+
 	# if _es.ping():
 	# 	print('Yay Connect')
 	# else:
@@ -86,4 +88,4 @@ def blah(request):
 	# 	print(commit.name, commit.age, commit.experienceInYears)
 	#a = s.source(['name', 'age']).scan()
 	for commit in response:
-		print(commit.name, commit.age, commit.experienceInYears)
+		print(commit.name, commit.age, commit.experienceInYears, "bakh")
